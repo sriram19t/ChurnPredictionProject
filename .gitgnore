@@ -1,0 +1,11 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model artifacts if they are large
+models/*.pkl
+
+# Ignore other temporary files
+__pycache__/
