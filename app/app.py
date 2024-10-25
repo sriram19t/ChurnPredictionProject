@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load('/Users/sai.thota/Projects/Customer_Churn_Prediction/models/final_xgboost_churn_model.pkl')
+model = joblib.load('Customer_Churn_Prediction/models/final_xgboost_churn_model.pkl')
 
 # Title of the app
 
