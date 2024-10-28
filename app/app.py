@@ -14,8 +14,8 @@ st.title("Customer Churn Prediction App")
 st.write("Enter customer details below to predict the likelihood of churn.")
 
 # Collect user inputs as text fields
-total_charges = st.text_input('Total Charges')
-monthly_cost_per_year = st.text_input('Monthly Cost Per Year')
+total_charges = st.text_input('Total Charges in dollars($)')
+monthly_cost_per_year = st.text_input('Monthly Cost Per Year in dollars($)')
 total_services = st.text_input('Total Services Subscribed (0-8)')
 tenure_bucket = st.selectbox('Tenure Bucket', ('0-1 year', '1-2 years', '2-4 years', '4-6 years', '6+ years'))
 contract = st.selectbox('Contract Type', ('Month-to-month', 'One year', 'Two year'))
